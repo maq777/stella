@@ -8,21 +8,6 @@
     <Filter Include="Source Files\emucore">
       <UniqueIdentifier>{5188eb42-0dec-46ba-b181-46760495045d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\cheat">
-      <UniqueIdentifier>{668555cd-5471-4274-8f88-ada71c1994ec}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\debugger">
-      <UniqueIdentifier>{65430770-f470-43b9-b3ee-0fb9c1b1048d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui">
-      <UniqueIdentifier>{e031c7d2-674c-472b-9a04-70707ac75a7e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\zlib">
-      <UniqueIdentifier>{31501e98-40f8-4bcd-bf6f-52b133725061}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\libpng">
-      <UniqueIdentifier>{9ca218eb-55db-44fa-abba-f20cf9d69d48}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -57,9 +42,6 @@
     </Filter>
     <Filter Include="Header Files\audio">
       <UniqueIdentifier>{49d8ea64-20c1-45f1-9dc9-b39c17d7cabd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\audio">
-      <UniqueIdentifier>{000e4a6b-8cd6-43db-8253-8255c7efa706}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\emucore\exception">
       <UniqueIdentifier>{fb5429b5-4ffb-4574-a98d-54ba865e4199}</UniqueIdentifier>
@@ -249,294 +231,6 @@
     <ClCompile Include="..\emucore\Thumbulator.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\cheat\BankRomCheat.cxx">
-      <Filter>Source Files\cheat</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cheat\CheatCodeDialog.cxx">
-      <Filter>Source Files\cheat</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cheat\CheatManager.cxx">
-      <Filter>Source Files\cheat</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cheat\CheetahCheat.cxx">
-      <Filter>Source Files\cheat</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cheat\RamCheat.cxx">
-      <Filter>Source Files\cheat</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\AudioWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\CartDebug.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\CpuDebug.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CpuWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\DataGridOpsWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\DataGridWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\Debugger.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\DebuggerDialog.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\DebuggerParser.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\DiStella.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\PromptWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RamWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\RiotDebug.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RiotWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RomListWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RomWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\TIADebug.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TiaInfoWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TiaOutputWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TiaWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TiaZoomWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\ToggleBitWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TogglePixelWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\ToggleWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\yacc\YaccParser.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\AboutDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\AudioDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\BrowserDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\CheckListWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ComboDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\CommandDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\CommandMenu.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ContextMenu.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\Dialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\DialogContainer.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\EditableWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\EditTextWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\EventMappingWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\Font.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\GameInfoDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\GlobalPropsDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\HelpDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\InputDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\InputTextDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\Launcher.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\LauncherDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ListWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\Menu.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\MessageBox.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\OptionsDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\PopUpWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ProgressDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\RomAuditDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\RomInfoWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ScrollBarWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\StringListWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\TabWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\UIDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\VideoDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\Widget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\adler32.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\compress.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\crc32.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\deflate.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\gzclose.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\gzlib.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\gzread.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\gzwrite.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\infback.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\inffast.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\inflate.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\inftrees.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\trees.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\uncompr.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\zlib\zutil.c">
-      <Filter>Source Files\zlib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\png.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngerror.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngget.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngmem.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngpread.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngread.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngrio.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngrtran.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngrutil.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngset.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngtrans.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngwio.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngwrite.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngwtran.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\libpng\pngwutil.c">
-      <Filter>Source Files\libpng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\LoggerDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\FBSurfaceSDL2.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -548,24 +242,6 @@
     </ClCompile>
     <ClCompile Include="..\emucore\CartCM.cxx">
       <Filter>Source Files\emucore</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\BoosterWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\DrivingWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\GenesisWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\JoystickWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\KeyboardWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\PaddleWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\CartFA2.cxx">
       <Filter>Source Files\emucore</Filter>
@@ -585,102 +261,6 @@
     <ClCompile Include="..\common\ZipHandler.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart2KWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart3EWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart3FWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart4A50Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart4KWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart0840Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartARWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCMWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCTYWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCVWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDPCPlusWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDPCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartE0Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartE7Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartEFSCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartEFWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF0Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF4SCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF4Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF6SCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF6Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF8SCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartF8Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartFA2Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartFAWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartFEWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartSBWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartUAWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartX07Widget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\FileListWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RomListSettings.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\SnapshotDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\Base.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -699,21 +279,6 @@
     <ClCompile Include="..\emucore\CartDFSC.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart4KSCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartBFSCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartBFWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDFSCWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDFWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\EventHandlerSDL2.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -726,23 +291,8 @@
     <ClCompile Include="..\emucore\CartDASH.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartRamWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\AtariVoxWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\SaveKeyWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDASHWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
     <ClCompile Include="..\emucore\CartMDM.cxx">
       <Filter>Source Files\emucore</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartMDMWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
     </ClCompile>
     <ClCompile Include="..\common\main.cxx">
       <Filter>Source Files</Filter>
@@ -750,23 +300,8 @@
     <ClCompile Include="..\emucore\CartWD.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartWDWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\JoystickDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\RiotRamWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
     <ClCompile Include="..\emucore\CartCVPlus.cxx">
       <Filter>Source Files\emucore</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCVPlusWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\Cart3EPlusWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\Cart3EPlus.cxx">
       <Filter>Source Files\emucore</Filter>
@@ -798,29 +333,17 @@
     <ClCompile Include="..\emucore\tia\TIA.cxx">
       <Filter>Source Files\emucore\tia</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartBUSWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCDFWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
     <ClCompile Include="..\emucore\CartBUS.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\CartCDF.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\DelayQueueWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\tv_filters\AtariNTSC.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\CartDetector.cxx">
       <Filter>Source Files\emucore</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\ColorWidget.cxx">
-      <Filter>Source Files\gui</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\PointingDevice.cxx">
       <Filter>Source Files\emucore</Filter>
@@ -831,47 +354,11 @@
     <ClCompile Include="..\common\StateManager.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\AmigaMouseWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\AtariMouseWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\FlashWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\PointingDeviceWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\TrakBallWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\DeveloperDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartDebugWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\RadioButtonWidget.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\emucore\CartMNetwork.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\CartE78K.cxx">
       <Filter>Source Files\emucore</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartMNetworkWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartE78KWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\TimeMachine.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\TimeMachineDialog.cxx">
-      <Filter>Source Files\gui</Filter>
     </ClCompile>
     <ClCompile Include="..\emucore\tia\frame-manager\AbstractFrameManager.cxx">
       <Filter>Source Files\emucore\tia</Filter>
@@ -887,9 +374,6 @@
     </ClCompile>
     <ClCompile Include="..\emucore\tia\frame-manager\YStartDetector.cxx">
       <Filter>Source Files\emucore\tia</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\TimeLineWidget.cxx">
-      <Filter>Source Files\gui</Filter>
     </ClCompile>
     <ClCompile Include="..\common\PhysicalJoystick.cxx">
       <Filter>Source Files</Filter>
@@ -915,15 +399,6 @@
     <ClCompile Include="..\emucore\EmulationTiming.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\common\audio\SimpleResampler.cxx">
-      <Filter>Source Files\audio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\common\audio\ConvolutionBuffer.cxx">
-      <Filter>Source Files\audio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\common\audio\LanczosResampler.cxx">
-      <Filter>Source Files\audio</Filter>
-    </ClCompile>
     <ClCompile Include="..\emucore\DispatchResult.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
@@ -935,9 +410,6 @@
     </ClCompile>
     <ClCompile Include="..\common\FpsMeter.cxx">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\common\audio\HighPass.cxx">
-      <Filter>Source Files\audio</Filter>
     </ClCompile>
     <ClCompile Include="..\common\TimerManager.cxx">
       <Filter>Source Files</Filter>
@@ -957,29 +429,32 @@
     <ClCompile Include="..\emucore\ProfilingRunner.cxx">
       <Filter>Source Files\emucore</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\gui\CartCDFInfoWidget.cxx">
-      <Filter>Source Files\debugger</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\StellaSettingsDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\gui\MinUICommandDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\repository\KeyValueRepositoryConfigfile.cxx">
       <Filter>Source Files\repository</Filter>
     </ClCompile>
     <ClCompile Include="..\common\Logger.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\gui\R77HelpDialog.cxx">
-      <Filter>Source Files\gui</Filter>
-    </ClCompile>
     <ClCompile Include="..\common\JoyMap.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\debugger\BreakpointMap.cxx">
-      <Filter>Source Files\debugger</Filter>
+    <ClCompile Include="..\stm32\EventHandlerSTM32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stm32\FBSurfaceSTM32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stm32\FrameBufferSTM32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stm32\FSNodeSTM32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stm32\OSystemSTM32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stm32\SettingsSTM32.cxx">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
