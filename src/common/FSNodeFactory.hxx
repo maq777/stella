@@ -29,6 +29,8 @@ class AbstractFSNode;
   #include "FSNodeWINDOWS.hxx"
 #elif defined(__LIB_RETRO__)
   #include "FSNodeLIBRETRO.hxx"
+#elif defined(BSPF_STM32)
+#include "FSNodeSTM32.hxx"
 #else
   #error Unsupported platform in FSNodeFactory!
 #endif
@@ -55,6 +57,8 @@ class FilesystemNodeFactory
           return make_unique<FilesystemNodeWINDOWS>(path);
         #elif defined(__LIB_RETRO__)
           return make_unique<FilesystemNodeLIBRETRO>(path);
+        #elif defined(BSPF_STM32)
+          return make_unique<FilesystemNodeSTM32>(path);
         #endif
           break;
         case Type::ZIP:

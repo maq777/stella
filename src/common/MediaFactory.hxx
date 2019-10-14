@@ -45,6 +45,9 @@
   }
 #elif defined(__LIB_RETRO__)
   #include "OSystemLIBRETRO.hxx"
+#elif defined(BSPF_STM32)
+  #include "SettingsSTM32.hxx"
+  #include "OSystemSTM32.hxx"
 #else
   #error Unsupported platform!
 #endif
@@ -52,6 +55,9 @@
 #if defined(__LIB_RETRO__)
   #include "EventHandlerLIBRETRO.hxx"
   #include "FrameBufferLIBRETRO.hxx"
+#elif defined(__STM32__)
+  #include "EventHandlerSTM32.hxx"
+  #include "FrameBufferSTM32.hxx"
 #elif defined(SDL_SUPPORT)
   #include "EventHandlerSDL2.hxx"
   #include "FrameBufferSDL2.hxx"
@@ -101,6 +107,8 @@ class MediaFactory
       return make_unique<OSystemMACOS>();
     #elif defined(__LIB_RETRO__)
       return make_unique<OSystemLIBRETRO>();
+    #elif defined(BSPF_STM32)
+       return make_unique<OSystemSTM32>();
     #else
       #error Unsupported platform for OSystem!
     #endif
@@ -110,6 +118,8 @@ class MediaFactory
     {
     #ifdef RETRON77
       return make_unique<SettingsR77>();
+    #elif defined(BSPF_STM32)
+      return make_unique<SettingsSTM32>();
     #else
       return make_unique<Settings>();
     #endif
@@ -132,6 +142,8 @@ class MediaFactory
     {
     #if defined(__LIB_RETRO__)
       return make_unique<FrameBufferLIBRETRO>(osystem);
+    #elif defined(__STM32__)
+       return make_unique<FrameBufferSTM32>(osystem);
     #elif defined(SDL_SUPPORT)
       return make_unique<FrameBufferSDL2>(osystem);
     #else
@@ -158,6 +170,8 @@ class MediaFactory
     {
     #if defined(__LIB_RETRO__)
       return make_unique<EventHandlerLIBRETRO>(osystem);
+    #elif defined(__STM32__)
+      return make_unique<EventHandlerSTM32>(osystem);
     #elif defined(SDL_SUPPORT)
       return make_unique<EventHandlerSDL2>(osystem);
     #else

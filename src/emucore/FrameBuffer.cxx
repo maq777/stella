@@ -721,11 +721,13 @@ void FrameBuffer::setFullscreen(bool enable)
     case EventHandlerState::EMULATION:
     case EventHandlerState::PAUSE:
       break; // continue with processing (aka, allow a mode switch)
+#if GUI_SUPPORT | DEBUGGER_SUPPORT
     case EventHandlerState::DEBUGGER:
     case EventHandlerState::LAUNCHER:
       if(myOSystem.eventHandler().overlay().baseDialogIsActive())
         break; // allow a mode switch when there is only one dialog
       [[fallthrough]];
+#endif
     default:
       return;
   }

@@ -402,6 +402,7 @@ void UIDialog::saveConfig()
   settings.setValue("mwheel", myWheelLinesSlider->getValue());
   ScrollBarWidget::setWheelLines(myWheelLinesSlider->getValue());
 
+#ifdef DEBUGGER_SUPPORT
   // Mouse double click
   settings.setValue("mdouble", myDoubleClickSlider->getValue());
   DialogContainer::setDoubleClickDelay(myDoubleClickSlider->getValue());
@@ -413,6 +414,7 @@ void UIDialog::saveConfig()
   // Controller input rate
   settings.setValue("ctrlrate", myControllerRateSlider->getValue());
   DialogContainer::setControllerRate(myControllerRateSlider->getValue());
+#endif
 
   // Flush changes to disk and inform the OSystem
   instance().saveConfig();

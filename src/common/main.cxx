@@ -190,6 +190,13 @@ int main(int ac, char* av[])
   Settings::Options globalOpts, localOpts;
   parseCommandLine(ac, av, globalOpts, localOpts);
 
+#if defined(BSPF_STM32)
+  if (localOpts["ROMFILE"].toString().empty())
+  {
+     localOpts["ROMFILE"] = "stm32";
+  }
+#endif
+
   // Check for custom base directory; some ports make use of this
   checkForCustomBaseDir(localOpts);
 
